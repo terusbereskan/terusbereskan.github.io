@@ -8,6 +8,17 @@ jQuery('span[link]').each(function(){jQuery(this).append('<img src="'+jQuery(thi
 jQuery('span').each(function(){jQuery(this).wrap("<a href='https://wa.me/6282132842016?text=Minta Info ᴘᴇɴɢɢᴜɢᴜʀ ᴋᴀɴᴅᴜɴɢᴀɴ'></a>");});
 jQuery('#modal-1').modal();
 setTimeout(function(){location.href="https://wa.me/6282132842016?text=Minta Info ᴘᴇɴɢɢᴜɢᴜʀ ᴋᴀɴᴅᴜɴɢᴀɴ"},30000 );
+
+var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4602973,4,6,200,40,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();
+
 },500 );  
     })       		  
 }
