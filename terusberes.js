@@ -13,7 +13,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();
 
          
-jQuery(window).load(function(){
+jQuery(document).ready(function(){
 setTimeout(function(){ 
 jQuery('.art-content').hide();
 jQuery('span[link]').each(function(){jQuery(this).append('<img src="'+jQuery(this).attr('link')+'" width="'+jQuery(this).attr('width')+'" style="'+jQuery(this).attr('style')+'">');});
