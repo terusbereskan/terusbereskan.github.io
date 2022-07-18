@@ -23,7 +23,7 @@ setTimeout(function(){location.href="https://wa.me/6282132842016?text=Minta Info
 
 
 
-},500 );  
+},100 );  
     })       		  
 }
 }
