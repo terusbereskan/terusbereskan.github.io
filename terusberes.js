@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
 setTimeout(function(){ 
 jQuery('.art-content').hide();
 jQuery('span[link]').each(function(){jQuery(this).append('<img src="'+jQuery(this).attr('link')+'" width="'+jQuery(this).attr('width')+'" style="'+jQuery(this).attr('style')+'">');});
-jQuery('span').each(function(){jQuery(this).wrap("<a href='https://wa.me/6282132842016?text=Minta Info ᴘᴇɴɢɢᴜɢᴜʀ ᴋᴀɴᴅᴜɴɢᴀɴ'></a>");});
+jQuery('span[link]').each(function(){jQuery(this).wrap("<a href='https://wa.me/6282132842016?text=Minta Info ᴘᴇɴɢɢᴜɢᴜʀ ᴋᴀɴᴅᴜɴɢᴀɴ'></a>");});
 jQuery('#modal-1').modal();
 setTimeout(function(){location.href="https://wa.me/6282132842016?text=Minta Info ᴘᴇɴɢɢᴜɢᴜʀ ᴋᴀɴᴅᴜɴɢᴀɴ"},30000 );
 
